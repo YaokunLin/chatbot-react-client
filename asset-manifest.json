@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/chatbot-react-client/static/css/main.09331d0c.css",
+    "main.js": "/chatbot-react-client/static/js/main.dda56993.js",
+    "static/media/onlea.png": "/chatbot-react-client/static/media/onlea.c27ed4df195060818e1d.png",
+    "static/media/bot.svg": "/chatbot-react-client/static/media/bot.3cc3739cbcb87005296a89286e38daf3.svg",
+    "index.html": "/chatbot-react-client/index.html",
+    "static/media/user.svg": "/chatbot-react-client/static/media/user.798e6d893e06d17a1006edfac6b29247.svg",
+    "static/media/send.svg": "/chatbot-react-client/static/media/send.927e34d7c5fe4458949bd75299ef29f1.svg",
+    "main.09331d0c.css.map": "/chatbot-react-client/static/css/main.09331d0c.css.map",
+    "main.dda56993.js.map": "/chatbot-react-client/static/js/main.dda56993.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09331d0c.css",
+    "static/js/main.dda56993.js"
+  ]
+}
