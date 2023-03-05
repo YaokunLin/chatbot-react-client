@@ -16,7 +16,6 @@ const MsgBox = ({ msgs, setMsgs}) => {
   const [newMsg, setNewMsg] = useState("");
   const [pending, setPending] = useState(false);
   const model = useModel();
-  console.log(model);
 
   const onSuccess = useCallback((data) => {
     console.log("fetching successful");
