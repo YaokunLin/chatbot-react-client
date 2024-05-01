@@ -49,7 +49,7 @@ const MsgBox = ({ msgs, setMsgs}) => {
     ['newMsg', 
       newMsg, 
       model, 
-      "http://chatbotbeanstalk-env.eba-xn42mmzq.us-west-2.elasticbeanstalk.com/", //"http://localhost:5000/", //https://chatgpt-clone-yl1.onrender.com/
+      "https://chatbot-server-phi.vercel.app/" //"http://localhost:5000/" // "https://chatgpt-clone-yl1.onrender.com/" // "http://chatbotbeanstalk-env.eba-xn42mmzq.us-west-2.elasticbeanstalk.com/",
     ], 
     fetchGptRes,
     {
