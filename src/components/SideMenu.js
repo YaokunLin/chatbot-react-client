@@ -5,7 +5,7 @@ import React, {  useCallback, useState } from 'react';
 import { useModelChange, useModel } from '../contexts/ModelContext';
 
 // utils
-import {AVAILABLE_MODELS, IMPERSONATE_LIST} from "../utils/constants"
+import { IMPERSONATE_LIST } from "../utils/constants"
 
 // components
 import SliderBox from "./SliderBox"
@@ -47,7 +47,7 @@ const SideMenu = () => {
             New chat
           </div> */}
 
-          <SelectBox
+          {/* <SelectBox
             value={model.langModel}
             label="Language model"
             onSelect={(e)=>{
@@ -56,7 +56,7 @@ const SideMenu = () => {
               });
             }}
             selectItems={AVAILABLE_MODELS} 
-          />
+          /> */}
 
 
           <SliderBox

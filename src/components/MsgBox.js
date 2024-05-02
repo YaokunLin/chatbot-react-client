@@ -106,15 +106,19 @@ const MsgBox = ({ msgs, setMsgs}) => {
       cols="1" 
       onChange = {(e) => {
         setNewMsg(e.target.value);
-      }} 
-       onKeyDown={(e) => {
+      }}
+      placeholder={"Message " + model.impersonation} 
+      onKeyDown={(e) => {
         if(e.key === 'Enter' && e.shiftKey === false ) {
           e.preventDefault();
           //console.log(formRef.current.elements.prompt.value);
           handleSubmit();
           }
       }} />
-      <button type="submit" disabled={pending}  className={pending ? "send-button not-ready" : "send-button ready"}>
+      <button 
+        type="submit" 
+        disabled={pending}  
+        className={pending ? "send-button not-ready" : "send-button ready"}>
         <img src={send} alt="Send" className={pending ? "send-not-ready" : "send-ready"}/>
       </button>
     </form>
